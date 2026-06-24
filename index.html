@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <!-- UTMIFY PIXEL -->
+  <script>
+    window.pixelId = "6a3b52163e2e5c097ec1b47c";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+  <!-- UTMIFY UTM TRACKER -->
+  <script
+    src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+    data-utmify-prevent-xcod-sck
+    data-utmify-prevent-subids
+    async
+    defer
+  ></script>
+  <!-- MICROSOFT CLARITY -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "xbuv41qknk");
+  </script>
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIBIS DO CEBOLINHA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* FONTE LOCAL - FIRA SANS (substitui a antiga Bangers) */
+    @font-face {
+        font-family: 'Fira Sans';
+        src: url('./Fira Sans/FiraSans-Black.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* GLOBAL */
+    :root {
+        --primary: #00C853;
+        --primary-dark: #009624;
+        --secondary: #D90012;
+        --dark: #07120D;
+        --blue: #0D2B4E;
+        --green: #00C853;
+        --yellow: #FFD600;
+        --text: #E2E8F0;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        background-color: var(--dark);
+        color: white;
+        overflow-x: hidden;
+    }
+    * { box-sizing: border-box; }
+    
+    .bangers { font-family: 'Fira Sans', sans-serif; font-weight: 900; letter-spacing: 0.5px; }
+    .text-center { text-align: center; }
+    .highlight { color: var(--primary); }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+    /* TICKER & TIMER */
+    #top-timer-bar {
+        background-color: var(--secondary);
+        color: white;
+        padding: 12px;
+        font-weight: 900;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    .ticker-wrap {
+        background: var(--primary);
+        color: var(--dark);
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 10px 0;
+        font-weight: 900;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .ticker-move { display: inline-block; animation: ticker 25s linear infinite; }
+    @keyframes ticker { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-50%, 0, 0); } }
+    .ticker-item { padding: 0 2rem; }
+
+    /* HERO SECTION */
+    .hero-section {
+        background: radial-gradient(circle at top center, var(--blue) 0%, var(--dark) 100%);
+        padding: 20px 20px;
+        text-align: center;
+        border-bottom: 3px solid var(--primary);
+    }
+    .footer-logo {
+        display: block;
+        max-width: 150px;
+        margin: 0 auto 20px auto;
+        filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));
+    }
+    .hero-headline {
+        font-size: 4rem;
+        line-height: 1.1;
+        margin-bottom: 14px;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+        margin-top: 0;
+    }
+    .headline-mobile { display: none; }
+    .colecao-break { display: none; }
+    .garantia-break { display: none; }
+    .hero-subheadline {
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin-bottom: 19px;
+        color: rgba(255, 255, 255, 0.8);
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* VSL CONTAINER */
+    .vsl-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 30px auto;
+        border: 5px solid var(--primary); /* Borda Amarela */
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(255, 214, 0, 0.4);
+        background: #000;
+    }
+
+    /* CTA BUTTON */
+    .cta-btn {
+        background: linear-gradient(to bottom, #00E676, #009624);
+        color: #FFF;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+        font-size: 2rem;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 60px;
+        cursor: pointer;
+        text-transform: uppercase;
+        box-shadow: 0 10px 30px rgba(0, 200, 83, 0.4);
+        transition: transform 0.2s;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 900;
+        animation: pulse 2s infinite;
+        border: 2px solid var(--yellow);
+    }
+
+    /* PURCHASE CARDS */
+    .purchase-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .purchase-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+        .purchase-cards-wrapper {
+            flex-direction: row;
+            align-items: center;
+            align-items: stretch; /* faz com que fiquem da mesma altura */
+        }
+    }
+    .purchase-card {
+        background: #111;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 450px;
+        padding: 40px 30px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .card-basic {
+        border: 4px solid var(--yellow);
+    }
+    .card-premium {
+        border: 4px solid #2E7BD6;
+        z-index: 2;
+    }
+    @media (min-width: 768px) {
+        .card-premium {
+            transform: scale(1.05); /* Destaque no desktop */
+        }
+    }
+    .purchase-badge {
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .badge-basic { background: var(--yellow); color: var(--dark); }
+    .badge-premium { background: #2E7BD6; color: #FFF; box-shadow: 0 0 15px rgba(46,123,214,0.5); }
+    
+    .purchase-title {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+    .title-basic { color: var(--yellow); }
+    .title-premium { color: #4D9FFF; }
+    
+    .purchase-price {
+        color: #FFF;
+        font-size: 4rem; /* Ajustado um pouco para caber 2 lado a lado */
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        margin: 10px 0;
+        line-height: 1;
+    }
+    .purchase-benefits {
+        text-align: left;
+        margin: 30px 0;
+        color: #FFF;
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-grow: 1;
+    }
+    .purchase-benefit-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .btn-premium {
+        background: linear-gradient(to bottom, #4D9FFF, #2E7BD6);
+        color: #FFF;
+        box-shadow: 0 10px 30px rgba(46, 123, 214, 0.4);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    @keyframes pulse-blue {
+        0% { box-shadow: 0 0 0 0 rgba(46, 123, 214, 0.7); }
+        70% { box-shadow: 0 0 0 20px rgba(46, 123, 214, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(46, 123, 214, 0); }
+    }
+    .btn-premium { animation: pulse-blue 2s infinite; border: 2px solid #FFF;}
+    .btn-premium:hover { box-shadow: 0 0 0 0 rgba(46, 123, 214, 0.7); }
+    
+    .purchase-footer {
+        margin-top: 20px;
+        color: #AAA;
+        font-size: 0.95rem;
+    }
+    .payment-icons {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    /* UPSELL MODAL */
+    .upsell-overlay {
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0,0,0,0.85);
+        z-index: 9999;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        backdrop-filter: blur(5px);
+        overflow-y: auto;
+    }
+    .upsell-modal {
+        background: #FFF;
+        border-radius: 18px;
+        width: 100%;
+        max-width: 480px;
+        max-height: 94vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        text-align: center;
+        position: relative;
+        animation: modalSlideIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        margin: auto;
+    }
+    @keyframes modalSlideIn {
+        from { transform: translateY(50px) scale(0.9); opacity: 0; }
+        to { transform: translateY(0) scale(1); opacity: 1; }
+    }
+    /* Header vermelho */
+    .upsell-header {
+        background: #CC0000;
+        color: #FFF;
+        padding: clamp(10px, 1.8vh, 14px) 20px;
+        border-radius: 18px 18px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-weight: 900;
+        font-size: clamp(0.85rem, 1.8vh, 1rem);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .upsell-header-close {
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 1.3rem;
+        color: #FFF;
+        line-height: 1;
+        opacity: 0.9;
+    }
+    .upsell-header-close:hover { opacity: 1; }
+    /* Corpo */
+    .upsell-body {
+        padding: clamp(10px, 2vh, 20px) clamp(16px, 4vw, 28px) clamp(10px, 2vh, 20px);
+        color: #111;
+    }
+    /* Imagem */
+    .upsell-img-wrap {
+        position: relative;
+        display: inline-block;
+        margin-bottom: clamp(6px, 1.2vh, 12px);
+    }
+    .upsell-img-wrap img {
+        width: clamp(100px, 18vh, 160px);
+        height: auto;
+        border-radius: 12px;
+    }
+    .upsell-img-badge {
+        position: absolute;
+        bottom: -6px;
+        right: -10px;
+        background: #CC0000;
+        color: #FFF;
+        font-weight: 900;
+        font-size: 0.75rem;
+        padding: 5px 10px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    }
+    /* Headline */
+    .upsell-title {
+        color: #111;
+        font-size: clamp(1.2rem, 3.2vh, 1.8rem);
+        margin: 0 0 clamp(4px, 1vh, 10px) 0;
+        line-height: 1.12;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+    .upsell-title span { color: #2E7BD6; }
+    /* Benefits */
+    .upsell-benefits-list {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: clamp(4px, 1vh, 8px);
+        margin: clamp(8px, 2vh, 16px) 0;
+        font-size: clamp(0.8rem, 1.8vh, 0.95rem);
+        color: #333;
+        font-weight: 600;
+    }
+    .upsell-bonus-box {
+        background: #fff8e1;
+        border: 1.5px solid #FFD600;
+        border-radius: 10px;
+        padding: clamp(8px, 1.5vh, 12px);
+        margin-top: clamp(6px, 1.2vh, 10px);
+    }
+    .upsell-bonus-box-title {
+        font-weight: 900;
+        color: #b8860b;
+        font-size: clamp(0.8rem, 1.8vh, 0.95rem);
+        margin-bottom: 5px;
+    }
+    /* Caixa oferta - tracejada estilo foto */
+    .upsell-offer-box {
+        border: 2px dashed #F4A0A0;
+        border-radius: 14px;
+        padding: clamp(8px, 1.8vh, 16px);
+        margin: clamp(6px, 1.5vh, 14px) 0;
+        background: #FFF8F8;
+    }
+    .upsell-offer-label {
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        font-weight: 800;
+        color: #999;
+        letter-spacing: 2px;
+        margin-bottom: 6px;
+    }
+    .upsell-price-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .upsell-price-old {
+        text-decoration: line-through;
+        color: #BBB;
+        font-size: clamp(0.9rem, 2vh, 1.3rem);
+        font-weight: 700;
+    }
+    .upsell-price {
+        color: #22A000;
+        font-size: clamp(2rem, 5vh, 3rem);
+        font-weight: 900;
+        line-height: 1;
+    }
+    .upsell-timer-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 7px;
+        font-size: 0.82rem;
+        font-weight: 800;
+        color: #CC0000;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    /* Botão CTA */
+    .upsell-btn-yes {
+        background: linear-gradient(to bottom, #3B9EFF, #1755B8);
+        color: #FFF;
+        font-size: clamp(0.95rem, 2.5vh, 1.3rem);
+        padding: clamp(11px, 2vh, 16px) 10px;
+        width: 100%;
+        border: 2.5px solid #111;
+        border-radius: 60px;
+        cursor: pointer;
+        text-transform: uppercase;
+        box-shadow: 0 4px 0 #111, 0 6px 16px rgba(0,0,0,0.25);
+        display: block;
+        text-decoration: none;
+        font-weight: 900;
+        font-family: 'Fira Sans', sans-serif;
+        animation: pulse-blue 2s infinite;
+        letter-spacing: 1px;
+    }
+    .upsell-btn-no {
+        display: block;
+        margin-top: clamp(18px, 3vh, 28px);
+        color: #111;
+        font-size: 0.78rem;
+        text-decoration: none;
+        cursor: pointer;
+        background: none;
+        border: none;
+        width: 100%;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .upsell-btn-no:hover { color: #444; }
+    /* Descrição */
+    .upsell-desc {
+        font-size: clamp(0.82rem, 1.8vh, 0.95rem);
+        color: #555;
+        line-height: 1.4;
+        margin: 0 0 clamp(6px, 1.2vh, 12px) 0;
+        text-align: center;
+    }
+    .upsell-desc strong { color: #111; }
+
+
+    /* GUARANTEE SECTION */
+    .guarantee-section {
+        background: linear-gradient(180deg, #CC0000, #660000);
+        color: #FFFFFF;
+        padding: 60px 0;
+        text-align: center;
+        border-top: 5px solid var(--primary);
+        border-bottom: 5px solid var(--primary);
+    }
+    .guarantee-section h2 {
+        color: #FFFFFF;
+        font-size: 3.5rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    .guarantee-section p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .guarantee-badge {
+        width: 280px;
+        display: block;
+        margin: 0 auto;
+        filter: drop-shadow(0 25px 25px rgba(0,0,0,0.8));
+        transition: transform 0.3s;
+    }
+    .guarantee-badge:hover {
+        transform: scale(1.05);
+    }
+    .cta-btn:hover { transform: translateY(-5px) scale(1.05); }
+    @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.7); }
+        70% { box-shadow: 0 0 0 20px rgba(0, 200, 83, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(0, 200, 83, 0); }
+    }
+    .cta-subtext {
+        display: block;
+        font-size: 1rem;
+        margin-top: 10px;
+        color: var(--text);
+        font-weight: 700;
+    }
+
+    /* PRICING */
+    .pricing-box { margin-bottom: 30px; }
+    .price-old { text-decoration: line-through; color: #A0AEC0; font-size: 1.5rem; font-weight: 700; display: block;}
+    .price-new { color: var(--green); font-size: 6rem; line-height: 1; display: block; text-shadow: 0 4px 15px rgba(0, 200, 83, 0.3); margin: 10px 0;}
+    .price-pix { font-size: 2rem; color: var(--primary); text-transform: uppercase; text-shadow: 0 2px 5px rgba(0,0,0,0.5); }
+
+    /* CHECKLIST SECTION */
+    .checklist-section {
+        background-color: #0A1128;
+        padding: 60px 0;
+        border-top: 2px solid var(--primary);
+        border-bottom: 2px solid var(--primary);
+        box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
+    }
+    .section-title {
+        font-size: 3.5rem;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    .bonus-especiais-title { font-size: 3.5rem; }
+    .colecionadores-title { font-size: 3.5rem; }
+    .faq-title { font-size: 3.5rem !important; }
+    .checklist-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .check-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background: rgba(255,255,255,0.05);
+        padding: 15px 20px;
+        border-radius: 10px;
+        border-left: 5px solid var(--green);
+    }
+    .check-icon {
+        background: var(--green);
+        color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+        flex-shrink: 0;
+    }
+
+    /* CAROUSEL INFINITO */
+    .carousel-wrapper {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px 0;
+        position: relative;
+    }
+    .carousel-track {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: max-content;
+        animation: scroll-carousel 40s linear infinite;
+    }
+    @keyframes scroll-carousel {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    .carousel-item {
+        display: inline-block;
+        width: 220px;
+        height: 320px;
+        margin: 0 15px;
+        border-radius: 10px;
+        object-fit: cover;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        border: 3px solid var(--primary);
+        transition: transform 0.3s;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+    .carousel-item:hover {
+        transform: scale(1.05);
+    }
+
+    /* BADGES SECTION */
+    .badges-section {
+        padding: 40px 0;
+        background: var(--dark);
+    }
+    .badges-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        text-align: center;
+    }
+    .badge-card {
+        background: rgba(19, 32, 96, 0.5);
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid rgba(255,214,0,0.2);
+    }
+    .badge-icon { font-size: 3rem; margin-bottom: 10px; display: block; }
+    .badge-image { width: 70px; height: auto; margin: 0 auto 10px auto; display: block; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5)); }
+    .badge-title { font-weight: 900; font-size: 1.2rem; color: var(--primary); text-transform: uppercase;}
+    .badge-desc { font-size: 0.9rem; color: var(--text); }
+
+    /* BONUS SECTION */
+    .bonus-section {
+        padding: 60px 0;
+        background: linear-gradient(to bottom, #06091C, #0A1128);
+    }
+    .bonus-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bonus-card {
+        background: #111827;
+        padding: 35px 25px;
+        border-radius: 15px;
+        border-top: 5px solid var(--primary);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        text-align: center;
+        transition: transform 0.3s;
+    }
+    .bonus-card:hover { transform: translateY(-10px); }
+    .bonus-label {
+        background: var(--primary);
+        color: var(--dark);
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+        font-size: 1.2rem;
+        padding: 5px 20px;
+        border-radius: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+    .bonus-title {
+        font-size: 2rem;
+        color: #FFF;
+        margin-bottom: 15px;
+        line-height: 1.1;
+        letter-spacing: 1px;
+    }
+    .bonus-desc {
+        color: #A0AEC0;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+    .bonus-price {
+        font-size: 1.2rem;
+        font-weight: 900;
+        background: rgba(0, 200, 83, 0.1);
+        color: var(--green);
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 200, 83, 0.3);
+    }
+    .bonus-price span {
+        text-decoration: line-through;
+        color: #F56565;
+        margin-right: 5px;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials-section {
+        padding: 60px 0;
+        background: #080C24;
+    }
+    .testi-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .testi-card {
+        background: #132060;
+        padding: 25px;
+        border-radius: 15px;
+        border-bottom: 4px solid var(--primary);
+    }
+    .testi-avatar { width: 75px; height: 75px; border-radius: 50%; object-fit: cover; margin: 0 auto 15px auto; border: 3px solid var(--primary); display: block; }
+    .testi-stars { color: var(--yellow); font-size: 1.2rem; margin-bottom: 10px; }
+    .testi-text { font-style: italic; margin-bottom: 15px; line-height: 1.5; }
+    .testi-author { font-weight: 900; color: var(--primary); }
+
+    /* GUARANTEE */
+    .guarantee-section {
+        padding: 60px 0;
+        background: linear-gradient(135deg, var(--secondary), #8A0000);
+        text-align: center;
+        border-top: 5px solid var(--primary);
+        border-bottom: 5px solid var(--primary);
+    }
+    .guarantee-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .guarantee-seal { font-size: 6rem; line-height: 1; }
+    .guarantee-text { text-align: left; }
+    .guarantee-text h2 { font-size: 3rem; margin: 0 0 10px 0; color: var(--primary); }
+    .guarantee-text p { font-size: 1.2rem; line-height: 1.5; margin: 0; }
+
+    /* FAQ */
+    .faq-section {
+        padding: 60px 0;
+        background: var(--dark);
+    }
+    .faq-item {
+        background: #132060;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .faq-question {
+        padding: 20px;
+        font-weight: 900;
+        font-size: 1.2rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        color: var(--primary);
+    }
+    .faq-answer {
+        padding: 0 20px 20px 20px;
+        color: var(--text);
+        line-height: 1.6;
+        display: none;
+    }
+    .faq-item.active .faq-answer { display: block; }
+    .faq-item.active .faq-question::after { content: "−"; }
+    .faq-question::after { content: "+"; font-size: 1.5rem; }
+
+    /* FOOTER */
+    footer {
+        background: #030510;
+        padding: 30px;
+        text-align: center;
+        color: #64748B;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+        .hero-section { padding: 19px 10px; }
+        .hero-headline { font-size: 2.5rem; margin-bottom: 9px; }
+        .headline-desktop { display: none; }
+        .headline-mobile { display: inline; }
+        .hero-subheadline { margin-bottom: 14px; font-size: 1.15rem; font-weight: 800; }
+        .carousel-wrapper { margin: 10px 0 15px 0; padding: 0; }
+        .carousel-item { width: 130px; height: 180px; margin: 0 8px; }
+        .price-new { font-size: 4rem; }
+        .checklist-grid { grid-template-columns: 1fr; }
+        .badges-grid { grid-template-columns: 1fr; }
+        .guarantee-content { flex-direction: column; text-align: center; gap: 20px; }
+        .guarantee-text { text-align: center; }
+        .cta-btn { font-size: 1.15rem; padding: 15px 5px; width: 100%; white-space: normal; text-align: center; line-height: 1.2; }
+        .section-title { font-size: 2.5rem; padding: 10px 20px; }
+        .colecao-title { font-size: 1.3rem !important; }
+        .colecao-break { display: inline; }
+        .garantia-break { display: inline; }
+        .bonus-especiais-title { font-size: 2.5rem !important; }
+        .colecionadores-title { font-size: 2.5rem !important; }
+        .faq-title { font-size: 2.5rem !important; }
+        .guarantee-section h2 { font-size: 2.5rem; }
+        
+        /* Ajustes do Modal de Upsell no Mobile */
+        .upsell-overlay { padding: 8px; }
+        .upsell-modal { max-height: 96vh; }
+        .upsell-header { font-size: 0.85rem; padding: 11px 16px; }
+        .upsell-body { padding: 12px 14px; }
+        .upsell-img-wrap img { width: clamp(90px, 28vw, 130px); }
+        .upsell-title { font-size: 1.25rem; }
+        .upsell-benefits-list { font-size: 0.78rem; gap: 3px; margin: 8px 0; }
+        .upsell-bonus-box { padding: 7px 10px; }
+        .upsell-offer-box { padding: 10px 12px; margin: 8px 0; }
+        .upsell-price { font-size: 2rem; }
+        .upsell-price-old { font-size: 0.95rem; }
+        .upsell-btn-yes { font-size: 1rem; padding: 13px 10px; }
+        .upsell-btn-no { font-size: 0.72rem; margin-top: 20px; color: #111; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TIMER NO TOPO -->
+  <div id="top-timer-bar">
+    ⏳ Oferta encerra em: <span id="timer-display">15:00</span>
+  </div>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-move">
+      <span class="ticker-item">200 GIBIS DO CEBOLINHA •  ACESSO VITALÍCIO • DOWNLOAD IMEDIATO • GARANTIA 7 DIAS • R$14,90 NO PIX</span>
+      <span class="ticker-item">200 GIBIS DO CEBOLINHA •  ACESSO VITALÍCIO • DOWNLOAD IMEDIATO • GARANTIA 7 DIAS • R$14,90 NO PIX</span>
+      <span class="ticker-item">200 GIBIS DO CEBOLINHA •  ACESSO VITALÍCIO • DOWNLOAD IMEDIATO • GARANTIA 7 DIAS • R$14,90 NO PIX</span>
+      <span class="ticker-item">200 GIBIS DO CEBOLINHA •  ACESSO VITALÍCIO • DOWNLOAD IMEDIATO • GARANTIA 7 DIAS • R$14,90 NO PIX</span>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container">
+
+      <h1 class="hero-headline bangers">
+        <span class="headline-desktop">A Maior Coleção Digital de <br>
+        <span class="highlight">Gibis do Cebolinha</span></span>
+        <span class="headline-mobile">A Maior Coleção<br>
+        Digital de Gibis <br>
+        <span class="highlight">do Cebolinha</span></span>
+      </h1>
+      
+      <p class="hero-subheadline">
+        200 gibis do Cebolinha e sua trupe em qualquer dispositivo: celular, tablet, Kindle ou notebook.
+      </p>
+
+      <!-- CARROSSEL INFINITO COMO "IMAGEM" -->
+      <div class="carousel-wrapper">
+        <div class="carousel-track">
+          <!-- Bloco 1 (Original) -->
+          <img src="GIBI C1.webp" class="carousel-item" alt="Gibi Cebolinha 1">
+          <img src="GIBI C2.webp" class="carousel-item" alt="Gibi Cebolinha 2">
+          <img src="GIBI C3.webp" class="carousel-item" alt="Gibi Cebolinha 3">
+          <img src="GIBI C4.webp" class="carousel-item" alt="Gibi Cebolinha 4">
+          <img src="GIBI C5.webp" class="carousel-item" alt="Gibi Cebolinha 5">
+          <img src="GIBI C6.webp" class="carousel-item" alt="Gibi Cebolinha 6">
+          <img src="GIBI C7.webp" class="carousel-item" alt="Gibi Cebolinha 7">
+          <img src="GIBI C8.webp" class="carousel-item" alt="Gibi Cebolinha 8">
+          <img src="GIBI C9.webp" class="carousel-item" alt="Gibi Cebolinha 9">
+          <img src="GIBI C10.webp" class="carousel-item" alt="Gibi Cebolinha 10">
+          <img src="GIBI C11.webp" class="carousel-item" alt="Gibi Cebolinha 11">
+          <img src="GIBI C12.webp" class="carousel-item" alt="Gibi Cebolinha 12">
+          <img src="GIBI C13.webp" class="carousel-item" alt="Gibi Cebolinha 13">
+          <img src="GIBI C14.webp" class="carousel-item" alt="Gibi Cebolinha 14">
+          <!-- Bloco 2 (Clone para o loop infinito perfeito) -->
+          <img src="GIBI C1.webp" class="carousel-item" alt="Gibi Cebolinha 1">
+          <img src="GIBI C2.webp" class="carousel-item" alt="Gibi Cebolinha 2">
+          <img src="GIBI C3.webp" class="carousel-item" alt="Gibi Cebolinha 3">
+          <img src="GIBI C4.webp" class="carousel-item" alt="Gibi Cebolinha 4">
+          <img src="GIBI C5.webp" class="carousel-item" alt="Gibi Cebolinha 5">
+          <img src="GIBI C6.webp" class="carousel-item" alt="Gibi Cebolinha 6">
+          <img src="GIBI C7.webp" class="carousel-item" alt="Gibi Cebolinha 7">
+          <img src="GIBI C8.webp" class="carousel-item" alt="Gibi Cebolinha 8">
+          <img src="GIBI C9.webp" class="carousel-item" alt="Gibi Cebolinha 9">
+          <img src="GIBI C10.webp" class="carousel-item" alt="Gibi Cebolinha 10">
+          <img src="GIBI C11.webp" class="carousel-item" alt="Gibi Cebolinha 11">
+          <img src="GIBI C12.webp" class="carousel-item" alt="Gibi Cebolinha 12">
+          <img src="GIBI C13.webp" class="carousel-item" alt="Gibi Cebolinha 13">
+          <img src="GIBI C14.webp" class="carousel-item" alt="Gibi Cebolinha 14">
+        </div>
+      </div>
+
+      <div style="color: var(--green); font-size: 1.1rem; font-weight: bold; margin-bottom: 19px; text-transform: uppercase;">
+        apenas R$ 14,90 no Pix
+      </div>
+      
+      <a href="#checkout" class="cta-btn bangers">
+        ⚡ QUERO MEU ACESSO AGORA!
+      </a>
+      <span class="cta-subtext">Acesso imediato após o pagamento! Pagamento 100% Seguro.</span>
+    </div>
+  </section>
+
+  <!-- O QUE VOCÊ VAI RECEBER -->
+  <section class="checklist-section">
+    <div class="container text-center">
+      <h2 class="section-title bangers">O Que Você Vai Receber:</h2>
+      <h3 class="bangers colecao-title" style="color: var(--yellow); font-size: 2.2rem; margin-top: 0; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">COLEÇÃO COMPLETA <span class="colecao-break"><br></span>DESDE 1973</h3>
+      
+      <!-- VSL CONTAINER -->
+      <div class="vsl-container">
+        <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/mizvfrmpb5.js" async type="module"></script><style>wistia-player[media-id='mizvfrmpb5']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/mizvfrmpb5/swatch'); display: block; filter: blur(5px); padding-top:177.78%; }</style> <wistia-player media-id="mizvfrmpb5" aspect="0.5625"></wistia-player>
+      </div>
+      
+      <div style="margin-top: 40px;">
+        <a href="#checkout" class="cta-btn bangers" style="margin-top: 30px;">⚡ QUERO MEU ACESSO!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATOS E ACESSO -->
+  <section class="badges-section">
+    <div class="container">
+      <div class="badges-grid">
+        <div class="badge-card">
+          <img src="Pdf_File_Icon_Png__Pdf__Pdf_Logo__Pdf_Icon_PNG_and_Vector_with_Transparent_Background_for_Free_Download-removebg-preview.png" class="badge-image" alt="Ícone PDF">
+          <div class="badge-title">Formato PDF</div>
+          <div class="badge-desc">Leve, Prático e Organizado</div>
+        </div>
+        <div class="badge-card">
+          <span class="badge-icon">📱</span>
+          <div class="badge-title">Funciona em Tudo</div>
+          <div class="badge-desc">Celular, Tablet e Computador</div>
+        </div>
+        <div class="badge-card">
+          <img src="download_icon_download_icon_downloading_png-removebg-preview.png" class="badge-image" alt="Ícone Download">
+          <div class="badge-title">Download Imediato</div>
+          <div class="badge-desc">Logo após a confirmação</div>
+        </div>
+        <div class="badge-card">
+          <img src="Download_Gmail_icon_transparent_png__1_-removebg-preview.png" class="badge-image" alt="Ícone E-mail">
+          <div class="badge-title">Envio via E-mail</div>
+          <div class="badge-desc">Chega em 1 minuto</div>
+        </div>
+        <div class="badge-card">
+          <img src="Download_Whatsapp_logo_png__Whatsapp_icon_png__Whatsapp_transparent-removebg-preview.png" class="badge-image" alt="Ícone WhatsApp">
+          <div class="badge-title">Envio via WhatsApp</div>
+          <div class="badge-desc">Acesso na palma da mão</div>
+        </div>
+        <div class="badge-card">
+          <img src="Warranty_Verified_Png_Icon__Png_Icon__Png_Warranty__Verified_Png_PNG_and_Vector_with_Transparent_Background_for_Free_Download-removebg-preview.png" class="badge-image" alt="Ícone Acesso Vitalício">
+          <div class="badge-title">Acesso Vitalício</div>
+          <div class="badge-desc">Pague uma vez, tenha pra sempre</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BÔNUS EXCLUSIVOS -->
+  <section class="bonus-section">
+    <div class="container">
+      <h2 class="bangers text-center bonus-especiais-title" style="font-size: 3.5rem; color: #FFFFFF; text-shadow: 0 4px 10px rgba(0,0,0,0.5);">Bônus Especiais Incluídos</h2>
+      <div class="bonus-grid">
+        
+        <div class="bonus-card">
+          <div class="bonus-label">BÔNUS 01</div>
+          <img src="BÔNUS 01.webp" alt="Turma da Mônica Jovem" style="width: 100%; max-width: 250px; margin: 0 auto 15px auto; display: block; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5)); border-radius: 10px;">
+          <div class="bonus-title bangers">Turma da Mônica Jovem</div>
+          <div class="bonus-desc">Reviva a adolescência da turma mais famosa do Brasil com toda a coleção em um só lugar.</div>
+          <div class="bonus-price"><span>De: R$ 34,90</span> | Grátis Hoje</div>
+        </div>
+
+        <div class="bonus-card">
+          <div class="bonus-label">BÔNUS 02</div>
+          <img src="BÔNUS 02.webp" alt="+20.000 HQs Diversos" style="width: 100%; max-width: 250px; margin: 0 auto 15px auto; display: block; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5)); border-radius: 10px;">
+          <div class="bonus-title bangers">+20.000 HQs Diversos</div>
+          <div class="bonus-desc">Uma biblioteca enorme com os maiores títulos de super-heróis, aventura e ficção para ler quando quiser.</div>
+          <div class="bonus-price"><span>De: R$ 27,90</span> | Grátis Hoje</div>
+        </div>
+
+        <div class="bonus-card">
+          <div class="bonus-label">BÔNUS 03</div>
+          <img src="BÔNUS 03.webp" alt="+20.000 Mangás Diversos" style="width: 100%; max-width: 250px; margin: 0 auto 15px auto; display: block; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5)); border-radius: 10px;">
+          <div class="bonus-title bangers">+20.000 Mangás Diversos</div>
+          <div class="bonus-desc">Os melhores mangás de todos os tempos reunidos em uma coleção completa para você explorar.</div>
+          <div class="bonus-price"><span>De: R$ 39,90</span> | Grátis Hoje</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="container text-center">
+      <h2 class="bangers colecionadores-title" style="font-size: 3rem; color: #FFFFFF;">O Que Dizem Nossos Colecionadores</h2>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <img src="./DEP 01.webp" alt="Mariana" class="testi-avatar">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-text">"Gente, que nostalgia maravilhosa! Comprei pra ler no tablet e a qualidade dos PDFs é incrível. Meu filho está apaixonado pelas peraltices do Cebolinha, igualzinho eu na idade dele."</div>
+          <div class="testi-author">- Mariana Costa, 38 anos</div>
+        </div>
+        <div class="testi-card">
+          <img src="./DEP 02.webp" alt="Juliana" class="testi-avatar">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-text">"O kit completo vale cada centavo. Chegou no meu e-mail na mesma hora. Já baixei uns 150 gibis do Cebolinha da década de 80 e 90 que eu tinha perdido. Sensacional!"</div>
+          <div class="testi-author">- Juliana Mendes, 41 anos</div>
+        </div>
+        <div class="testi-card">
+          <img src="./DEP 03.webp" alt="Roberto" class="testi-avatar">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-text">"Estava com medo de ser golpe, mas chegou direitinho pelo WhatsApp. Organizado por pastas, muito fácil de achar os gibis antigos do Cebolinha que eu adorava."</div>
+          <div class="testi-author">- Roberto Silva, 27 anos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PURCHASE CARDS -->
+  <section class="purchase-section" id="checkout">
+    <div class="container">
+      <div class="purchase-cards-wrapper">
+        
+        <!-- CARD 1 -->
+        <div class="purchase-card card-basic">
+                    <div class="purchase-title title-basic bangers">KIT SIMPLES</div>
+          <div class="purchase-price bangers">R$ 14,90</div>
+          
+          <div class="purchase-benefits">
+            <div class="purchase-benefit-item">✅ 200 gibis do Cebolinha</div>
+            <div class="purchase-benefit-item">✅ 1 Ano de Acesso</div>
+            <div class="purchase-benefit-item">✅ Download Imediato</div>
+            <div class="purchase-benefit-item">✅ Funciona offline em qualquer dispositivo</div>
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px dashed #555; border-radius: 10px; padding: 15px; margin-top: 5px;">
+              <div style="font-weight: 900; color: #777; margin-bottom: 10px; font-size: 0.95rem;">PERDE OS BÔNUS:</div>
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div class="purchase-benefit-item" style="color: #777;">❌ Turma da Mônica Jovem</div>
+                <div class="purchase-benefit-item" style="color: #777;">❌ +20.000 HQs Diversos</div>
+                <div class="purchase-benefit-item" style="color: #777;">❌ +20.000 Mangás Diversos</div>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openUpsell()" class="cta-btn bangers" style="font-size: 1.5rem; padding: 15px 10px; width: 100%; box-sizing: border-box; font-family: 'Fira Sans', sans-serif; font-weight: 900; border: 2px solid #FFF;">⚡ QUERO ESSE!</button>
+          
+          <div class="purchase-footer">
+            <div>🔒 Compra segura</div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="purchase-card card-premium">
+          <div><div class="purchase-badge badge-premium">O MAIS ESCOLHIDO</div></div>
+          <div class="purchase-title title-premium bangers">KIT COMPLETO</div>
+          <div class="purchase-price bangers">R$ 29,90</div>
+          
+          <div class="purchase-benefits">
+            <div class="purchase-benefit-item">✅ +600 gibis do Cebolinha</div>
+            <div class="purchase-benefit-item">✅ Acesso Vitalício</div>
+            <div class="purchase-benefit-item">✅ Download Imediato</div>
+            <div class="purchase-benefit-item">✅ Funciona offline em qualquer dispositivo</div>
+            <div class="purchase-benefit-item">✅ Edição histórica Nº 1 de 26/01/1973</div>
+            <div class="purchase-benefit-item">✅ Todas as 168 edições da Editora Abril (1973–1986)</div>
+            <div class="purchase-benefit-item">✅ Todas as 246 edições da Editora Globo (1987–2006)</div>
+            <div class="purchase-benefit-item">✅ Série Panini completa (2007–atual)</div>
+            <div class="purchase-benefit-item">✅ Edições comemorativas (2014)</div>
+            <div style="background: rgba(255, 214, 0, 0.1); border: 1px solid var(--primary); border-radius: 10px; padding: 15px; margin-top: 5px; box-shadow: inset 0 0 15px rgba(255,214,0,0.1);">
+              <div style="font-weight: 900; color: var(--primary); margin-bottom: 10px; font-size: 1.1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">🎁 BÔNUS EXCLUSIVOS:</div>
+              <div style="display: flex; flex-direction: column; gap: 10px;">
+                <div class="purchase-benefit-item" style="color: #FFF;">✅ Turma da Mônica Jovem</div>
+                <div class="purchase-benefit-item" style="color: #FFF;">✅ +20.000 HQs Diversos</div>
+                <div class="purchase-benefit-item" style="color: #FFF;">✅ +20.000 Mangás Diversos</div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://tilimcheckout.com/checkout?p=984d36b2c96a749f1b2b8275b0ccacb9" class="cta-btn btn-premium bangers" style="font-size: 1.5rem; padding: 15px 10px; width: 100%; box-sizing: border-box;">⚡ QUERO TUDO!</a>
+          
+          <div class="purchase-footer">
+            <div>🔒 Compra segura</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GUARANTEE SECTION -->
+  <section class="guarantee-section" id="garantia">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <img src="./GARANTIA.webp" alt="Selo de Garantia 7 Dias Ouro" class="guarantee-badge">
+      <div style="text-align: center; max-width: 700px;">
+        <h2 class="bangers">GARANTIA <span class="garantia-break"><br></span>DE 7 DIAS</h2>
+        <p>Temos total confiança na qualidade do nosso acervo. Se por qualquer motivo você não gostar dos gibis, basta enviar um e-mail em até 7 dias e devolveremos 100% do seu dinheiro, sem perguntas!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="bangers text-center faq-title" style="font-size: 3.5rem; margin-bottom: 40px; color: #FFFFFF;">Perguntas Frequentes</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">Como vou receber o acervo?</div>
+        <div class="faq-answer">Imediatamente após a confirmação do pagamento via PIX, você receberá um e-mail e uma mensagem no WhatsApp com o link de acesso exclusivo para baixar ou ler online todos os gibis.</div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">Funciona no celular?</div>
+        <div class="faq-answer">Sim! Os gibis estão em formato PDF universal. Você pode ler facilmente em qualquer celular (Android ou iPhone), tablet, computador ou até mesmo imprimir.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">Tem mensalidade?</div>
+        <div class="faq-answer">Não! O valor de R$ 14,90 é taxa única. Você paga apenas uma vez e tem acesso vitalício (para sempre) a todo o acervo.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">E se eu não gostar?</div>
+        <div class="faq-answer">Você tem Garantia Incondicional de 7 dias. Se não ficar satisfeito, basta nos mandar um e-mail que devolvemos todo o seu dinheiro.</div>
+      </div>
+      
+      <div class="text-center" style="margin-top: 50px;">
+        <a href="#checkout" class="cta-btn bangers">⚡ SIM! QUERO GARANTIR MEU ACESSO!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPSELL MODAL -->
+  <div id="upsellModal" class="upsell-overlay">
+    <div class="upsell-modal">
+
+      <!-- Header vermelho -->
+      <div class="upsell-header">
+        ⚠️ SUPER DESCONTO ESPECIAL
+        <span class="upsell-header-close" onclick="closeUpsell()">✕</span>
+      </div>
+
+      <!-- Corpo -->
+      <div class="upsell-body">
+
+        <!-- Imagem -->
+        <div class="upsell-img-wrap">
+          <img src="POUPUP.webp" alt="Kit Completo Gibis do Cebolinha">
+          <span class="upsell-img-badge">SÓ HOJE!</span>
+        </div>
+
+        <!-- Headline -->
+        <h2 class="upsell-title">
+          Espere um pouco...<br>
+          Você acabou de ganhar<br>
+          um <span>SUPER DESCONTO!</span>
+        </h2>
+
+        <!-- Descrição -->
+        <p class="upsell-desc">
+          Você mostrou interesse nos Gibis do Cebolinha, então queremos te ajudar. Leve o <strong>KIT COMPLETO</strong> com um preço exclusivo agora.
+        </p>
+
+        <!-- Caixa de oferta relâmpago -->
+        <div class="upsell-offer-box">
+          <div class="upsell-offer-label">OFERTA RELÂMPAGO</div>
+          <div class="upsell-price-row">
+            <span class="upsell-price-old">R$ 29,90</span>
+            <span class="upsell-price">R$ 22,90</span>
+          </div>
+          <div class="upsell-timer-row">
+            🕐 EXPIRA EM: &nbsp;<span id="upsell-timer">5:00</span>
+          </div>
+        </div>
+
+        <!-- Botão CTA -->
+        <a href="https://tilimcheckout.com/checkout?p=589127a568a9e960c41cfdc7bff89e65" class="upsell-btn-yes">
+          QUERO APROVEITAR AGORA →
+        </a>
+        <a href="https://tilimcheckout.com/checkout?p=25fd25e4597d89294b18890cb61a2a41" class="upsell-btn-no">
+          Não, quero só o Kit Simples por R$14,90
+        </a>
+
+      </div><!-- /upsell-body -->
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <img src="LOGO.webp" alt="Baú do Cebolinha Oficial" class="footer-logo">
+      <p>Gibis do Cebolinha © 2026 - Todos os direitos reservados.</p>
+      <p>Este site não faz parte e não tem afiliação com o Facebook, Google ou Mauricio de Sousa Produções.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Timer Regressivo de 15 Minutos
+    function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = 0;
+            }
+        }, 1000);
+    }
+    window.onload = function () {
+        var fifteenMinutes = 60 * 15,
+            display = document.querySelector('#timer-display');
+        startTimer(fifteenMinutes, display);
+    };
+
+    // Upsell Modal Logic
+    var upsellTimerInterval = null;
+    function openUpsell(e) {
+        if (e) e.preventDefault();
+        document.getElementById('upsellModal').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        // Timer de 5 minutos
+        var seconds = 5 * 60;
+        var display = document.getElementById('upsell-timer');
+        if (upsellTimerInterval) clearInterval(upsellTimerInterval);
+        upsellTimerInterval = setInterval(function() {
+            var m = parseInt(seconds / 60, 10);
+            var s = parseInt(seconds % 60, 10);
+            if (display) display.textContent = m + ':' + (s < 10 ? '0' + s : s);
+            if (--seconds < 0) { clearInterval(upsellTimerInterval); if (display) display.textContent = '0:00'; }
+        }, 1000);
+    }
+
+    function closeUpsell() {
+        document.getElementById('upsellModal').style.display = 'none';
+        document.body.style.overflow = '';
+        if (upsellTimerInterval) { clearInterval(upsellTimerInterval); upsellTimerInterval = null; }
+    }
+
+    // O carrossel agora é animado 100% via CSS para máxima fluidez (60fps)
+
+    // Scroll suave via JS para não sujar a URL e manter o F5 no topo
+    document.querySelectorAll('a[href="#checkout"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('#checkout').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Se o usuário apertar F5 e a URL já estiver com #checkout, removemos e jogamos pro topo
+    if (window.location.hash === '#checkout') {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+        setTimeout(() => window.scrollTo(0, 0), 10);
+    }
+
+    // DISPARO DE EVENTOS UTMIFY (ViewContent e InitiateCheckout)
+    let viewContentFired = false;
+    window.addEventListener('scroll', function() {
+        if (!viewContentFired && window.scrollY > 150) { 
+            try {
+                if (typeof utmify !== 'undefined') utmify.track("ViewContent");
+            } catch(e) {}
+            viewContentFired = true;
+        }
+    });
+
+    function fireInitiateCheckout() {
+        try {
+            if (typeof utmify !== 'undefined') utmify.track("InitiateCheckout");
+        } catch(e) {}
+    }
+
+    document.querySelectorAll('a[href*="tilimcheckout.com"]').forEach(btn => {
+        btn.addEventListener('click', fireInitiateCheckout);
+    });
+  </script>
+</body>
+</html>
